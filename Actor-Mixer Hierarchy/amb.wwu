@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="amb" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="amb_rain" ID="{8127B543-8FAB-446D-8A97-552C04983858}" ShortID="1031261369">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="rain_intensity" ID="{C342ADEB-C679-42A1-B808-42C97936F19E}" ShortID="1067997747">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="light" ID="{631F5B83-34CF-4C65-BFBD-ACB825B2269A}" ShortID="107635275">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="medium" ID="{ED113F6D-790D-4B37-A867-FCB83A118127}" ShortID="457715049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="heavy" ID="{5D21F7A4-871E-4853-B00B-D1C98550C0E3}" ShortID="85173264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
