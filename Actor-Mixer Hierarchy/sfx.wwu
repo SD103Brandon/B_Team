@@ -15,6 +15,7 @@
 					<ChildrenList>
 						<WorkUnit Name="weapons" ID="{D3F113F4-087A-4A2D-B684-69070056F539}" PersistMode="Reference"/>
 						<WorkUnit Name="movement" ID="{238ABDAC-333F-4B84-8F61-DE5058A5F8E0}" PersistMode="Reference"/>
+						<WorkUnit Name="amb_rain" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
