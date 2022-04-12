@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" SchemaVersion="97" RootDocumentID="{19A55240-CA94-4BB2-BF46-A15A0417B5C1}">
+<WwiseDocument Type="WorkUnit" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="amb_rain" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" OwnerID="{0C2B3713-8D59-4F50-A245-41BF3208F0D5}" PersistMode="Nested">
+		<WorkUnit Name="amb" ID="{E0798332-9FFE-400F-A0A5-7D874E54C356}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="amb_rain" ID="{8127B543-8FAB-446D-8A97-552C04983858}" ShortID="1031261369">
 					<ReferenceList>
