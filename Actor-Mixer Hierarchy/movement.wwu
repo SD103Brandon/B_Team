@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{238ABDAC-333F-4B84-8F61-DE5058A5F8E0}" SchemaVersion="97" RootDocumentID="{19A55240-CA94-4BB2-BF46-A15A0417B5C1}">
+	<AudioObjects>
+		<WorkUnit Name="movement" ID="{238ABDAC-333F-4B84-8F61-DE5058A5F8E0}" OwnerID="{0C2B3713-8D59-4F50-A245-41BF3208F0D5}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="sfx_mov_footsteps" ID="{711E0FF7-C052-42A0-8B10-3930FFB4C54B}" ShortID="861971793">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83B099C4-FA4F-459A-A522-6802318B99F2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B6A1EEE9-CE83-479B-9D19-C5B93A2ADC38}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
