@@ -1,0 +1,17 @@
+# Team B
+# Brandon
+# Kevin
+# Blair
+# Note- Root folder is a Wwise project.
+
+.backup/
+.chache/
+
+IncrementalSoundBankData.xlm
+
+*akpk
+*.akd
+*.bnk
+*.prof
+*.validationcache
+*.wsettings
