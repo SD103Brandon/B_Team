@@ -5,11 +5,11 @@
 # Note- Root folder is a Wwise project.
 
 .backup/
-.chache/
+.cache/
 
 IncrementalSoundBankData.xlm
 
-*akpk
+*.akpk
 *.akd
 *.bnk
 *.prof
